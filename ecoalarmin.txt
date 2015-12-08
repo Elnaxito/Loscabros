@@ -9,3 +9,4 @@ def pulso():
 	if sensor==True:
 
 #jorge qlo pajero
+# la waea
