@@ -1,0 +1,11 @@
+import RPi.GPIO as GPIO
+from time import *
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(17, GPIO.IN) #entrada del sensor
+GPIO.setup(22, GPIO.OUT)
+
+def pulso():
+	sensor=GPIO.input(17)
+	if sensor==True:
+
+#jorge qlo pajero
